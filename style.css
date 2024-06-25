@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6); 
+}
+.nav-logo {
+    font-size: 2rem;
+    margin: 0;
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+.menu a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s, background-color 0.3s;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.menu a:hover {
+    color: greenyellow;
+    background-color: grey;
+}
+.search-icon {
+    margin-left: 20px;
+    transition: transform 0.3s, filter 0.3s, background-color 0.3s;
+    padding: 5px;
+    border-radius: 5px;
+}
+.search-icon:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+    background-color: grey;
+}
+.overlay {
+    position: relative;
+    width: 100%;
+    background-image: url('travel.jpg'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-text {
+    text-align: left;
+    max-width: 600px;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 10px;
+}
+.lg-head {
+    font-size: 3rem;
+}
+.m-head {
+    font-size: 2.5rem;
+}
+
+.para {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+.btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+    background-color: yellowgreen;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.btn:hover {
+    background-color: grey;
+}
+.thinking:hover{
+    transform: scale(1.1);
+    filter: brightness(1.1);
+}
+.image1 {
+    display: block; 
+    width: 50%; 
+    margin-left: 0; 
+    margin-right: auto; 
+}
+.underline {
+    text-decoration: underline;
+    color: greenyellow;
+}
+.image1:hover{
+    transform: scale(1.1);
+    filter: brightness(1.1);
+}
+.image2:hover{
+    transform: scale(1.1);
+    filter: brightness(1.1);
+}
+.image3:hover{
+    transform: scale(1.1);
+    filter: brightness(1.1);
+}
+.image4:hover{
+    transform: scale(1.1);
+    filter: brightness(1.1);
+}
